@@ -53,7 +53,20 @@ body {
     width: 75%;
     margin: auto;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
-    background-color: rgb(1, 14, 4);
+    background-color: #010e04;
+    color: whitesmoke;
+}
+
+h1, img {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+button {
+    border: none;
+    padding: 4px 16px;
 }
 
 /* --- NAVIGATION HEADER  --- */
@@ -80,10 +93,66 @@ a {
 }
 
 .logo {
-    color: greenyellow;
+    color: #adff2f;
     font-size: 20px;
     font-weight: 800;
 }
 
 /* --- HERO SECTION --- */
 
+span {
+    color: greenyellow;
+}
+
+.hero {
+    display: flex;
+    margin-top: 16px;
+}
+
+.hero-content p {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    border: 2px solid green;
+}
+
+.primary {
+    background-color: greenyellow;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* --- CARD SECTION --- */
+
+.card-content {
+    margin-top: 60px;
+}
+
+.card-content h2, .card-content p, .card-content h3 {
+    margin: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 60px;
+}
+
+.card {
+    padding: 24px;
+    border-radius: 5px;
+    margin-top: 32px;
+    background: linear-gradient(135deg, rgba(1,14,4,1) 0%, rgba(139,207,38,1) 100%, rgba(173,255,47,1) 100%);
+}
+
+/* --- TESTIMONIAL SECTION --- */
